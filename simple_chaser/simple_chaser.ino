@@ -1,4 +1,22 @@
 
+/******************************************************************************
+    Platform:Arduino Course Programs.
+    
+    Written by: Pratiksha Kasbekar, Vidya Robotics Pvt. Ltd.
+    Edited By: , Vidya Robotics Pvt. Ltd.
+    Last Modification: 07-06-2017
+        
+    This is a simple LED Chaser program.
+    8 LED's are connected to the 8 Pins of Arduino with a series resistor with each LED.
+    You can Change chaser speed by varying the delay in loop.
+    Digital pins from 2-9 are used for LED Chaser
+    
+    Hardware Setup:-
+    Connect LED and switch Shield to Arduino board
+    Connect  USB  cable between PC and Arduino Uno.
+    Select Controller Board: Arduino UNO
+    Select USBASP programmer type
+********************************************************************************/
 void setup() 
 {
   pinMode(2,OUTPUT);
